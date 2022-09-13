@@ -10,4 +10,7 @@ docker run -it --rm mcr.microsoft.com/dotnet/core/sdk:3.1 ping www.google.com
 docker run -it --rm mcr.microsoft.com/dotnet/core/sdk:3.1 ping api.nuget.org
 
 https://github.com/dotnet/dotnet-docker/blob/main/samples/run-aspnetcore-https-development.md
+
 https://github.com/dotnet/dotnet-docker/blob/main/samples/host-aspnetcore-https.md
+
+How to create certificate from url: openssl s_client -connect google.com:443 2>/dev/null | openssl x509> google.com.pem
