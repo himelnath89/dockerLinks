@@ -14,3 +14,9 @@ https://github.com/dotnet/dotnet-docker/blob/main/samples/run-aspnetcore-https-d
 https://github.com/dotnet/dotnet-docker/blob/main/samples/host-aspnetcore-https.md
 
 How to create certificate from url: openssl s_client -connect google.com:443 2>/dev/null | openssl x509> google.com.pem
+
+
+From Dan
+dotnet YouApp.dll --urls http://0.0.0.0:8080
+netstat -tln
+sudo docker exec –it nginx-test /bin/bash
