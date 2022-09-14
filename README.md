@@ -28,3 +28,18 @@ docker ps
 
 docker container ls
 
+Proxy in terminal
+
+export http_proxy=
+
+export https_proxy=
+
+export HTTP_PROXY=
+
+export HTTPS_PROXY=
+
+Proxy in docker
+
+ENV http_proxy xxx
+
+ENV https_proxy xxx
