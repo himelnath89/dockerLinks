@@ -17,6 +17,14 @@ How to create certificate from url: openssl s_client -connect google.com:443 2>/
 
 
 From Dan
+
 dotnet YouApp.dll --urls http://0.0.0.0:8080
+
 netstat -tln
+
 sudo docker exec –it nginx-test /bin/bash
+
+docker ps
+
+docker container ls
+
