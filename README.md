@@ -49,3 +49,6 @@ Disable Yarn strict ssl
 yarn config set "strict-ssl" false -g
 
 yarn config set enableStrictSsl false
+
+Clean build cache:
+docker builder prune
