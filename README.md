@@ -47,3 +47,5 @@ ENV https_proxy xxx
 Disable Yarn strict ssl
 
 yarn config set "strict-ssl" false -g
+
+yarn config set enableStrictSsl false
