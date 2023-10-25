@@ -48,7 +48,23 @@ Disable Yarn strict ssl
 
 yarn config set "strict-ssl" false -g
 
+# And clean up the image
+
+RUN rm -rf /var/lib/apt/lists/*
+
+
+
 yarn config set enableStrictSsl false
 
 Clean build cache:
 docker builder prune
+
+
+<h3>Install php sendemail</h3>
+https://r.je/sendmail-php-docker </br>
+
+RUN apt-get update && \
+
+    apt-get install -y \
+
+        sendmail
